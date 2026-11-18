@@ -3,6 +3,10 @@
 Sample random CAVE operation IDs, filter by historical segment size, and generate
 Neuroglancer links showing the separated segment pair and edit location.
 
+On the exploration branch, see [the negative-example generation plan](docs/negative_examples_plan.md)
+for proposed false merge/split generation and label-validation rules. This is a
+design proposal; the current scripts and CSVs still contain actual human edits.
+
 The only saved outputs are:
 
 - `outputs/operations.csv`: sampled IDs, historical roots, pre/post L2 counts,
